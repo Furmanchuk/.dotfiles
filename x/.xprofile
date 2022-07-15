@@ -1,0 +1,7 @@
+# XDG paths
+export XDG_CONFIG_HOME=$HOME/.config
+export XDG_CASHE_HOME=$HOME/.cashe
+export XDG_DATA_HOME=$HOME/.local/share
+
+# zsh config dir
+export ZDOTDIR=$HOME/.config/zsh
