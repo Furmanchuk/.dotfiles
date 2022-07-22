@@ -66,6 +66,7 @@ return packer.startup(function(use)
   use "neovim/nvim-lspconfig" -- enable LSP
   use "williamboman/nvim-lsp-installer" -- simple to use language server installer
   use "tamago324/nlsp-settings.nvim" -- language server settings defined in json for
+  use { "RRethy/vim-illuminate", commit = "c82e6d04f27a41d7fdcad9be0bce5bb59fcb78e5" }
 
   -- Telescope
   use "nvim-telescope/telescope.nvim"
@@ -99,6 +100,8 @@ return packer.startup(function(use)
   use "ellisonleao/glow.nvim"
   -- Whitespace
   use "johnfrankmorgan/whitespace.nvim"
+  -- Lualine
+  use "nvim-lualine/lualine.nvim"
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
